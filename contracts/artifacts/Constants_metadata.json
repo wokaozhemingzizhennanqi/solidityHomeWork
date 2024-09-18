@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gas",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Constants.sol": "Constants"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Constants.sol": {
+			"keccak256": "0x0f348d39eccaaa1506e1660284b36e4cac0140b63c98a358241204a8dcd07db4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://37feb3f9750b3d75abf132120190e7942cd48fb53d0742ea4333f37272b275af",
+				"dweb:/ipfs/QmUDKUT71c7TpHMQZP2oFRLLEqBaxbEBYb3L43tcDcnpKk"
+			]
+		}
+	},
+	"version": 1
+}

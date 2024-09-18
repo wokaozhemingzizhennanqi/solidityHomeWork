@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "inputState",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_state",
+						"type": "uint8"
+					}
+				],
+				"name": "changeState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FunctionModify.sol": "FunctionModify"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FunctionModify.sol": {
+			"keccak256": "0xe9243f886f2793305d164fe6a2e03d04ba0910f0e420b24e233fc959647b2def",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ebdd5397676d64845e09e39a0252993ef0a54a3bbe2a781c48cbecdaf6235c12",
+				"dweb:/ipfs/QmV8C3paSN6MJH3EAjeEqUUfZUtnz3877VQ9Nz8J8YaFaq"
+			]
+		}
+	},
+	"version": 1
+}
